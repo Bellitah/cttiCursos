@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+.imagem-inicio {
+    background-image: url('img/jovens.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#frase-inicio {
+    padding: 250px 0 50px 50px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.transforme {
+    font-size: 130%;
+}
+
+.futuro {
+    font-size: 320%;
+    color: white;
+}
+
+.principal {
+    display: inline-block;
+    margin: 50px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+}
+
+.escrita{
+    padding: 80px 100px;
+    border-radius: 30px;
+    background: linear-gradient(50deg, #021D60, #441160);
+    color: rgb(192, 213, 229);
+    font-size: 40px;
+}
+
+
+
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    width: 300px;
+    margin: 20px;
+    background: linear-gradient(to bottom, #5a52a5, #473d7a);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to bottom, #473d7a, #352c63);
+}
+.box img {
+    width: 100%;
+    height: auto;
+}
+.box-content {
+    padding: 20px;
+}
+.box h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.box p {
+    font-size: 16px;
+    color: #f0f0f0;
+}
+
+@media screen and (max-width: 640px) {
+
+    .principal {
+        margin: 15px;
+    }
+
+    .escrita{
+        padding: 20px 00;
+        font-size: 20px;
+    }
+
+    .box {
+        width: 70%; /* Ajuste a largura conforme necessário */
+        margin: 10px auto;
+    }
+}
