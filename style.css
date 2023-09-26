@@ -32,8 +32,7 @@ header {
     color: white;
 }
 
-.container-frase {
-}
+
 
 .principal {
     display: inline-block;
@@ -141,4 +140,12 @@ header {
         width: 70%; /* Ajuste a largura conforme necessário */
         margin: 10px auto;
     }
+
+    .footer {
+        display: block;
+      }
+  
+      .logo {
+        width: 30px;
+      }
 }
