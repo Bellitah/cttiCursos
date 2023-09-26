@@ -4,13 +4,17 @@
 }
 
 body {
-    background-color: #fff;
+    background: #fff;
     margin: 0;
+}
+
+header {
+    background-color: #fff;
 }
 
 .imagem-inicio {
     background-image: url('img/jovens.jpg');
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -26,6 +30,9 @@ body {
 .futuro {
     font-size: 320%;
     color: white;
+}
+
+.container-frase {
 }
 
 .principal {
@@ -83,6 +90,41 @@ body {
     font-size: 16px;
     color: #f0f0f0;
 }
+
+.footer {
+    background-color: #001a33;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer a {
+    color: #999;
+    text-decoration: none;
+  }
+  .logo img {
+    width: 150px;
+    border-radius: 100px;
+  }
+  .social-icons {
+    gap: 10px;
+  }
+  .social-icons a {
+    text-decoration: none;
+    color: #333;
+    background-color: #f1f1f1;
+    border-radius: 100px;
+    padding: 0.5em;
+  }
+  .links {
+    display: flex;
+    gap: 20px;
+  }
+  .copyright {
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 50%;
+  } 
 
 @media screen and (max-width: 640px) {
 
