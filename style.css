@@ -145,6 +145,12 @@ align-items: center;
 margin: 0 0 40px 0;
 }
 
+.grupos:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  background: #054c94;
+}
+
 #h1-grupos {
 padding: 40px 0 0 0;
 font-size: 40px;
@@ -158,6 +164,7 @@ margin: 10px;
 padding: 30px 0;
 margin: 50px;
 border-radius: 20px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 background: linear-gradient(to bottom right, #0073e6, #005bb7);
 }
 
