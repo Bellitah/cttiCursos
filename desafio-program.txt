@@ -1,0 +1,74 @@
+Desafio - logica de programacao
+
+
+
+1) Faça enquanto 1 algoritmo que mostre a seguinte sequência:
+1    2    4    5    7    8    10    11    13......1000
+
+int x= 1
+int cont= 1
+int z= 0
+
+Faça enquanto x<=1000
+   Faça enquanto cont.<=2
+         Mostre x 
+         x= x + 1
+         cont= cont + 1
+   Fim enq.
+   x= x + 1
+   cont= 1
+Fim enq.
+
+
+
+
+2) Faça 1 algoritmo que mostre:
+1    2    3    4    5     6    7     8      9       10.....1000
+
+
+
+
+
+
+3) Faça 1 algoritmo que mostre a seguinte sequência:
+4      8      12      16      20      24.....1000
+
+
+
+
+
+
+
+4)  Faça 1 algoritmo que mostre a seguinte sequência:
+1   2   3    6   7   8    11   12   13    16   17......5000
+
+
+
+
+
+
+
+
+5)Faça 1 algoritmo que mostre:
+1    4      2      7       3      10       4       13.....10000
+
+
+
+
+
+
+
+
+6) Mostre a seguinte sequência:
+1    5     9     13      15       17      19       23       27      31       33.....10k
+
+
+
+
+
+
+
+
+
+
+

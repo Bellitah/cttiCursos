@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta charset="utf-8">
+
+        <style>
+            :root {
+                --headerLargura: 200px;
+                --logosLargura: 100px;
+                --corFundoHeader: #f0dc4e;
+                --corFundoPrincipal: #333356;
+                --corFundoSecundaria: #6E5E90;
+                --corTexto1: #2e302c;
+                --corTexto2: #BEBAA9;
+            }
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                font-size: 16px;
+                font-family: Helvetica, sans-serif;
+            }
+            
+            body {
+                background-color: var(--corFundoPrincipal);
+            }
+
+            #headerLinks {
+                position: fixed;
+                top: 0px;
+                right: -150px;
+                display: flex;
+                flex-direction: column;
+                gap: 200px;
+                align-items: center;
+                width: var(--headerLargura);
+                height: 100vh;
+                background-color: var(--corFundoHeader);
+                transition: right 1s;
+            }
+
+            #headerLinks:hover {
+                right: 0px;
+            }
+            
+            #navbar {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 200px;
+
+            }
+
+            #langLogo {
+                width: var(--logosLargura);
+            }
+
+            #headerLogos {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: var(--logosLargura);
+                height: 100%;
+            }
+            
+            
+            #textosDeLinguagem, #coisasEmJava {
+                color: var(--corTexto2);
+                text-indent: 20px;
+                border: solid 1px var(--corTexto2);
+                border-radius: 7px;
+                padding: 15px;
+                margin: 0 calc(var(--logosLargura) + 5px);
+                
+            }
+            
+            #coisasEmJava {
+                margin-top: 100px;
+            }
+
+            .navTopText {
+                font-size: 2.5em;
+                color: var(--corTexto1);
+                padding: 30px 0;
+                font-weight: 900;
+            }
+
+            .nav-link {
+                font-size: 1.5em;
+                color: var(--corTexto1);
+                padding: 20px 0;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        
+        <header id="headerLinks">
+            <div class="navTopText">Java!</div>
+            <nav id="navbar">
+                <a class="nav-link">link 1</a>
+                <a class="nav-link">link 2</a>
+                <a class="nav-link">link 3</a>
+            </nav>
+        </header>
+        
+        <header id="headerLogos">
+            <img id="langLogo" src="img/JS-Logo.png"/>
+            <img id="langLogo" src="img/Csharp-Logo.png"/>
+            <img id="langLogo" src="img/Python-Logo.png"/>
+            <img id="langLogo" src="img/HTML-Logo.png"/>
+            <img id="langLogo" src="img/CSS-Logo.png"/>
+        </header>
+        <main>
+
+            <section id="coisasEmJava">
+                <h1> JavaScript</h1>
+    <p>Essa interação foi criada usando um recurso de javaScript chamado "alert".<br />
+        Com ele é possível criar caixas de diálogos que aparecem na tela do usuário.<br />
+        <br />
+        Existem diferentes tipos de caixa de diálogo, são elas:<br />
+        <br />
+
+        <script>
+            function funcao1()
+            {
+            alert("Eu sou um alert!\nSua principal função é mostrar ao usuário uma mensagem e um botão de confirmação de que o usuário tenha visto a mensagem.\nA sintaxe de um alert é muito simples, podendo ser facilmente executada dentro do console do próprio navegador.");
+            }
+ 
+        </script>
+
+        <script>
+            function funcao2()
+            {
+            confirm("Eu sou um alert de confirmação!\nO alert de confirmação (window.confirm) mostra ao usuário uma mensagem, um botão de confirmação e um botão de cancelar, que levam a textos diferentes dependendo da escolha do usuário. Experimente! Clique em OK ou CANCELAR");
+            let text;
+            if (confirm("Boa escolha!") == true) {
+            }
+            }
+
+        </script>
+
+        <script>
+            function funcao3()
+            {
+            var nome = prompt("Insira seu nome")
+            alert(nome + ", este é um exemplo de prompt de entrada, muitas vezes necessitamos disponibilizar espaços na tela para colhermos informações, tais como nome, telefone, email, etc.. Para isso dispomos de um campo para o texto ser inserido e com isso criamos interações como este texto!");
+            }
+
+        </script>
+            
+                    
+                    <input type="button" onclick="funcao1()" value="alert" />
+                    <input type="button" onclick="funcao2()" value="confirmação" />
+                    <input type="button" onclick="funcao3()" value="prompt de entrada" />
+
+        </script>
+
+                    
+    
+            </section>
+
+            <section id="textosDeLinguagem">
+
+                <p>Essa linguagem nada mais é do que um método padronizado que permite comunicar instruções específicas para um computador.</p>
+                <p>Há centenas de variações e todas elas permitem que o programador defina sobre quais dados o computador deverá atuar, como armazenar e transmitir esses dados e quais ações tomar sob variadas circunstâncias.</p>
+                <p>Há dois tipos de linguagem para o programador: as compiladas e as interpretadas.</p>
+                <p>Código fonte é o conjunto de palavras e comandos escritos ordenadamente, de maneira lógica, que contém instruções em determinada linguagem de programação.</p>
+                <p>Agora que você já entendeu o que é a programação, como se define a sua linguagem e o significado de código fonte, é importante também saber que muito além de um simples processo de escrita, a programação envolve um misto de outras habilidades cognitivas, como o raciocínio lógico, habilidades matemáticas, a capacidade de abstração e de lidar com diferentes tipos de dados.</p>
+                <p>A programação pode ser vista, assim, como uma profissão fundamental no futuro, e é justamente por isso que diversos países têm se esforçado para iniciar o ensino de programação cada vez mais cedo para as crianças, para desenvolver neles habilidades de raciocínio lógico, abstração, entre outras e também para suprir as demandas crescentes da profissão.</p>
+                <p>Agora que você já entendeu o que é a programação, como se define a sua linguagem e o significado de código fonte, é importante também saber que muito além de um simples processo de escrita, a programação envolve um misto de outras habilidades cognitivas, como o raciocínio lógico, habilidades matemáticas, a capacidade de abstração e de lidar com diferentes tipos de dados.</p>
+                <p>A programação, tal qual é atualmente, toma conta de todos os aparelhos tecnológicos utilizadas em diversas esferas sociais, da mobilidade urbana a aplicações médicas, tudo acaba envolve as tecnologias da informação e consequentemente a programação, que é e será por um bom tempo ainda essencial para o avanço dessas tecnologias e também para a utilização delas.</p>
+
+            </section>
+        </main>
+
+    </body>
+
+</html>

@@ -1,0 +1,33 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: rgb(2, 4, 116);
+}
+
+.game-template {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  border-radius: 7.5px;
+
+  background-color: rgb(218, 162, 162);
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#start-game {
+  margin: 0 auto;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid rgb(108, 94, 94);
+}

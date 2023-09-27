@@ -1,0 +1,30 @@
+
+As 07 Linguagens de Programação Mais Usadas em 2023: Aprimore suas Habilidades em Desenvolvimento Web
+
+1. Python
+
+É uma linguagem de programação de alto nível e para propósitos diversos. Ela pode ser utilizada para múltiplas tarefas, desde a análise e visualização de dados até o desenvolvimento, prototipação e automação web.
+
+2. C#
+
+É uma linguagem de programação orientada a objetos – um modelo que organiza o design de software ao redor de objetos.
+
+3. C++
+
+É uma versão melhorada da C,Sua natureza rápida e potente permite que desenvolvedores criem aplicações com excelente desempenho, como videogames, softwares gráficos e navegadores web.
+
+4. JavaScript
+
+Juntamente com HTML e CSS, é a melhor linguagem de programação para aprender desenvolvimento web front-end. 97,8% de todos os sites no mundo utilizam JavaScript para seu desenvolvimento client-side (a interface que é visível para os visitantes).
+
+5. PHP
+
+É uma das primeiras linguagens de programação back-end que os desenvolvedores consideram ser essencial aprender. Além disso, o PHP é utilizado por 78,1% de todos os sites na internet, já que é a linguagem primária do WordPress.
+
+6. Java
+
+Trata-se de uma linguagem de programação de alto nível — ou seja, que mais se aproxima da linguagem humana — e para propósitos diversos, permitindo que os desenvolvedores criem todo e qualquer tipo de aplicação com facilidade.
+
+7. SQL
+
+Trata-se de uma linguagem de domínio específico. Ela permite que os programadores manipulem, organizem em queries, e analisem dados armazenados em bancos de dados relacionais. 
